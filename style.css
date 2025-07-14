@@ -1,0 +1,141 @@
+
+*{
+    box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+/* common css */
+.panda-btn{
+    border-radius: 6px;
+background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+padding: 14px 20px 14px 20px;
+color: #FFFFFf;
+}
+/* navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.search-parent{
+    position: relative;
+       color: #FFFFFf;
+
+}
+.search-parent input{
+    border-radius: 66px;
+
+background: rgb(222, 222, 222);
+padding: 15px 30px;width: 508.94px;
+height: 48px;
+border: none;
+}
+.search-parent i{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap:24px ;
+    padding: 0;
+
+}
+.nav-items li a{
+    text-decoration: none;
+    color: #707070;
+    font-weight: 500px;
+    font-size:16px ;
+
+}
+.bannar-contanier{
+margin: auto;
+padding: 50px;
+max-width: 1280px;
+
+display:flex ;
+background-color: rgb(254, 234, 233);
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+border-radius: 20px;
+
+}
+
+/* bannar */
+
+.bannar h1{
+   font-size: 52px; 
+   font-weight:bold;
+
+}
+.image{
+ 
+}
+.bannar p{
+   color: #4E4E4E; 
+   width: 500px;
+}
+.bannar-price{
+color: rgb(255, 19, 111);
+font-weight: 500;
+font-size: 52px;
+display: block;
+}
+
+/* categories */
+.categories-card-continer{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+
+
+
+
+ .categories-card:nth-child(1){ 
+background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+display: flex;
+justify-content: space-between;
+gap: 5px;
+align-items: center;
+padding: 20px;
+border-radius: 10px;
+}
+
+.categories-card:nth-child(2){
+background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+display: flex;
+justify-content: space-between;
+gap: 5px;
+align-items: center;
+padding: 20px;
+border-radius: 10px;
+}
+
+.categories-card:nth-child(3){
+background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+display: flex;
+justify-content: space-between;
+gap: 5px;
+align-items: center;
+padding: 20px;
+border-radius: 10px;
+}
+
+
+.categories-card h3{
+font-size: 36px;
+color: #FFFFFf;
+font-weight: 500;
+
+} */
+
+
+
+
+
+
+
